@@ -131,6 +131,9 @@ function HomePage({ setResultData }) {
             <form>
                 <input type="file" id="fileInput" accept=".xlsx" />
                 <br />
+                <label>Tell us what you want to see</label>
+                <input></input>
+                <br />
                 <pre id="output">{output}</pre>
                 <br />
                 <div id="resultData"></div>
