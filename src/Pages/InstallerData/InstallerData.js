@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, registerables } from 'chart.js';
+import './InstallerData.css';
 ChartJS.register(...registerables);
 
 function InstallerData({ resultData }) {
@@ -67,7 +68,7 @@ function InstallerData({ resultData }) {
     };
 
     return (
-        <div>
+        <div className='installer-data'>
             <h2>Installer Data Bar Graph</h2>
             <Bar data={chartData} options={chartOptions} />
         </div>
