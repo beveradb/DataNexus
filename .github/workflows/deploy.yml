@@ -29,9 +29,12 @@ jobs:
         run: CI=false npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        id: upload-artifact
+        uses: actions/upload-artifact@v4
         with:
+          name: "github-pages"
           path: ./build
+          if-no-files-found: error
 
   deploy:
     needs: build
