@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DataNexus/static/css/main.e761ecdf.css",
+    "main.js": "/DataNexus/static/js/main.5b0df107.js",
+    "static/js/453.2a042382.chunk.js": "/DataNexus/static/js/453.2a042382.chunk.js",
+    "static/media/1000_F_802950566_SaDL90mjawxwbs0fFjdFFZyCBOwSJqSA.jpg": "/DataNexus/static/media/1000_F_802950566_SaDL90mjawxwbs0fFjdFFZyCBOwSJqSA.c8edf2fd61e9e84d5774.jpg",
+    "static/media/gator.jpg": "/DataNexus/static/media/gator.d434773bbc81f21ef854.jpg",
+    "index.html": "/DataNexus/index.html",
+    "main.e761ecdf.css.map": "/DataNexus/static/css/main.e761ecdf.css.map",
+    "main.5b0df107.js.map": "/DataNexus/static/js/main.5b0df107.js.map",
+    "453.2a042382.chunk.js.map": "/DataNexus/static/js/453.2a042382.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e761ecdf.css",
+    "static/js/main.5b0df107.js"
+  ]
+}
