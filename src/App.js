@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar/NavBar';
 import HomePage from './Pages/HomePage/HomePage';
 import Error from './Pages/Error/Error';
@@ -12,7 +12,7 @@ function App() {
 
     return (
         <div className="App">
-            <Router>
+            <HashRouter>
                 <NavBar />
                 <Routes>
                     <Route path='/' element={<HomePage setResultData={setResultData} />} />
@@ -20,7 +20,7 @@ function App() {
                     <Route path='/lot' element={<LotData />} />
                     <Route path='*' element={<Error />} />
                 </Routes>
-            </Router>
+            </HashRouter>
         </div>
     );
 }
