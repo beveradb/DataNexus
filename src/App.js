@@ -12,7 +12,7 @@ function App() {
 
     return (
         <div className="App">
-            <HashRouter>
+            <Router>
                 <NavBar />
                 <Routes>
                     <Route path='/' element={<HomePage setResultData={setResultData} />} />
@@ -20,7 +20,7 @@ function App() {
                     <Route path='/lot' element={<LotData />} />
                     <Route path='*' element={<Error />} />
                 </Routes>
-            </HashRouter>
+            </Router>
         </div>
     );
 }
